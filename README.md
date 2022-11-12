@@ -2,6 +2,7 @@
 ## Description
 
 This is a portfolio project that implements minimal functionality for user authorization and registration.
+
 Written using Nest.js framework.
 This is the server part, the front part is [AuthServerFrontend](https://github.com/exstarzii/AuthServiceFrontend).
 
