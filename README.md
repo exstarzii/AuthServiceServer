@@ -4,7 +4,7 @@
 This is a portfolio project that implements minimal functionality for user authorization and registration. <br />
 Written using Nest.js framework.<br />
 This is the server part, the front part is [AuthServerFrontend](https://github.com/exstarzii/AuthServiceFrontend).<br />
-deployed application - [auth-service-frontend]https://auth-service-frontend.vercel.app
+deployed application - [auth-service-frontend](https://auth-service-frontend.vercel.app)
 
 ## Installation
 
