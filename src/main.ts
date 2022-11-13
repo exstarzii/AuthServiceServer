@@ -9,7 +9,11 @@ async function bootstrap() {
   //     whitelist: true,
   //   }),
   // );
-  app.enableCors();
+  app.enableCors({
+    allowedHeaders: ['content-type'],
+    origin: 'https://auth-service-frontend-l664hyhn1-exstarzii.vercel.app',
+    credentials: true,
+  });
   await app.listen(3000);
 }
 bootstrap();
