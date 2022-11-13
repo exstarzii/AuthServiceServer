@@ -5,10 +5,10 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors({
-    origin: /^https:\/\/auth-service-server-[a-z0-9]+-exstarzii.vercel.app$/,
+    origin:'https://auth-service-frontend.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'UPDATE', 'DELETE'],
     credentials: true
-  });
-  await app.listen(3000);
+  });//
+  await app.listen(3000); // /^https:\/\/auth-service-server-[a-z0-9]+-exstarzii.vercel.app$/
 }
 bootstrap();
